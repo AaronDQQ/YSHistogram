@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0A2436DA23001EFE4D /* AppDelegate.m */; };
+		937BFF0E2436DA23001EFE4D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0D2436DA23001EFE4D /* SceneDelegate.m */; };
+		937BFF112436DA23001EFE4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF102436DA23001EFE4D /* ViewController.m */; };
+		937BFF142436DA23001EFE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937BFF122436DA23001EFE4D /* Main.storyboard */; };
+		937BFF162436DA25001EFE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937BFF152436DA25001EFE4D /* Assets.xcassets */; };
+		937BFF192436DA25001EFE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937BFF172436DA25001EFE4D /* LaunchScreen.storyboard */; };
+		937BFF1C2436DA25001EFE4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF1B2436DA25001EFE4D /* main.m */; };
+		937BFF262436DA25001EFE4D /* YSHistogramViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF252436DA25001EFE4D /* YSHistogramViewTests.m */; };
+		937BFF312436DA25001EFE4D /* YSHistogramViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF302436DA25001EFE4D /* YSHistogramViewUITests.m */; };
+		937BFF402436DA43001EFE4D /* YSHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF3F2436DA43001EFE4D /* YSHistogramView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		937BFF222436DA25001EFE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937BFEFE2436DA23001EFE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937BFF052436DA23001EFE4D;
+			remoteInfo = YSHistogramView;
+		};
+		937BFF2D2436DA25001EFE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937BFEFE2436DA23001EFE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937BFF052436DA23001EFE4D;
+			remoteInfo = YSHistogramView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		937BFF062436DA23001EFE4D /* YSHistogramView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSHistogramView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		937BFF092436DA23001EFE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		937BFF0A2436DA23001EFE4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		937BFF0C2436DA23001EFE4D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		937BFF0D2436DA23001EFE4D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		937BFF0F2436DA23001EFE4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		937BFF102436DA23001EFE4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		937BFF132436DA23001EFE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937BFF152436DA25001EFE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		937BFF182436DA25001EFE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		937BFF1A2436DA25001EFE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937BFF1B2436DA25001EFE4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		937BFF212436DA25001EFE4D /* YSHistogramViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHistogramViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937BFF252436DA25001EFE4D /* YSHistogramViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogramViewTests.m; sourceTree = "<group>"; };
+		937BFF272436DA25001EFE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937BFF2C2436DA25001EFE4D /* YSHistogramViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHistogramViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937BFF302436DA25001EFE4D /* YSHistogramViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogramViewUITests.m; sourceTree = "<group>"; };
+		937BFF322436DA25001EFE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937BFF3E2436DA43001EFE4D /* YSHistogramView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSHistogramView.h; sourceTree = "<group>"; };
+		937BFF3F2436DA43001EFE4D /* YSHistogramView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogramView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937BFF032436DA23001EFE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF1E2436DA25001EFE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF292436DA25001EFE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937BFEFD2436DA23001EFE4D = {
+			isa = PBXGroup;
+			children = (
+				937BFF082436DA23001EFE4D /* YSHistogramView */,
+				937BFF242436DA25001EFE4D /* YSHistogramViewTests */,
+				937BFF2F2436DA25001EFE4D /* YSHistogramViewUITests */,
+				937BFF072436DA23001EFE4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937BFF072436DA23001EFE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937BFF062436DA23001EFE4D /* YSHistogramView.app */,
+				937BFF212436DA25001EFE4D /* YSHistogramViewTests.xctest */,
+				937BFF2C2436DA25001EFE4D /* YSHistogramViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937BFF082436DA23001EFE4D /* YSHistogramView */ = {
+			isa = PBXGroup;
+			children = (
+				937BFF092436DA23001EFE4D /* AppDelegate.h */,
+				937BFF0A2436DA23001EFE4D /* AppDelegate.m */,
+				937BFF0C2436DA23001EFE4D /* SceneDelegate.h */,
+				937BFF0D2436DA23001EFE4D /* SceneDelegate.m */,
+				937BFF0F2436DA23001EFE4D /* ViewController.h */,
+				937BFF102436DA23001EFE4D /* ViewController.m */,
+				937BFF3E2436DA43001EFE4D /* YSHistogramView.h */,
+				937BFF3F2436DA43001EFE4D /* YSHistogramView.m */,
+				937BFF122436DA23001EFE4D /* Main.storyboard */,
+				937BFF152436DA25001EFE4D /* Assets.xcassets */,
+				937BFF172436DA25001EFE4D /* LaunchScreen.storyboard */,
+				937BFF1A2436DA25001EFE4D /* Info.plist */,
+				937BFF1B2436DA25001EFE4D /* main.m */,
+			);
+			path = YSHistogramView;
+			sourceTree = "<group>";
+		};
+		937BFF242436DA25001EFE4D /* YSHistogramViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				937BFF252436DA25001EFE4D /* YSHistogramViewTests.m */,
+				937BFF272436DA25001EFE4D /* Info.plist */,
+			);
+			path = YSHistogramViewTests;
+			sourceTree = "<group>";
+		};
+		937BFF2F2436DA25001EFE4D /* YSHistogramViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				937BFF302436DA25001EFE4D /* YSHistogramViewUITests.m */,
+				937BFF322436DA25001EFE4D /* Info.plist */,
+			);
+			path = YSHistogramViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937BFF052436DA23001EFE4D /* YSHistogramView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937BFF352436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramView" */;
+			buildPhases = (
+				937BFF022436DA23001EFE4D /* Sources */,
+				937BFF032436DA23001EFE4D /* Frameworks */,
+				937BFF042436DA23001EFE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSHistogramView;
+			productName = YSHistogramView;
+			productReference = 937BFF062436DA23001EFE4D /* YSHistogramView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		937BFF202436DA25001EFE4D /* YSHistogramViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937BFF382436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramViewTests" */;
+			buildPhases = (
+				937BFF1D2436DA25001EFE4D /* Sources */,
+				937BFF1E2436DA25001EFE4D /* Frameworks */,
+				937BFF1F2436DA25001EFE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937BFF232436DA25001EFE4D /* PBXTargetDependency */,
+			);
+			name = YSHistogramViewTests;
+			productName = YSHistogramViewTests;
+			productReference = 937BFF212436DA25001EFE4D /* YSHistogramViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		937BFF2B2436DA25001EFE4D /* YSHistogramViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937BFF3B2436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramViewUITests" */;
+			buildPhases = (
+				937BFF282436DA25001EFE4D /* Sources */,
+				937BFF292436DA25001EFE4D /* Frameworks */,
+				937BFF2A2436DA25001EFE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937BFF2E2436DA25001EFE4D /* PBXTargetDependency */,
+			);
+			name = YSHistogramViewUITests;
+			productName = YSHistogramViewUITests;
+			productReference = 937BFF2C2436DA25001EFE4D /* YSHistogramViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937BFEFE2436DA23001EFE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					937BFF052436DA23001EFE4D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					937BFF202436DA25001EFE4D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 937BFF052436DA23001EFE4D;
+					};
+					937BFF2B2436DA25001EFE4D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 937BFF052436DA23001EFE4D;
+					};
+				};
+			};
+			buildConfigurationList = 937BFF012436DA23001EFE4D /* Build configuration list for PBXProject "YSHistogramView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937BFEFD2436DA23001EFE4D;
+			productRefGroup = 937BFF072436DA23001EFE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937BFF052436DA23001EFE4D /* YSHistogramView */,
+				937BFF202436DA25001EFE4D /* YSHistogramViewTests */,
+				937BFF2B2436DA25001EFE4D /* YSHistogramViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937BFF042436DA23001EFE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937BFF192436DA25001EFE4D /* LaunchScreen.storyboard in Resources */,
+				937BFF162436DA25001EFE4D /* Assets.xcassets in Resources */,
+				937BFF142436DA23001EFE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF1F2436DA25001EFE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF2A2436DA25001EFE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937BFF022436DA23001EFE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937BFF112436DA23001EFE4D /* ViewController.m in Sources */,
+				937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */,
+				937BFF1C2436DA25001EFE4D /* main.m in Sources */,
+				937BFF402436DA43001EFE4D /* YSHistogramView.m in Sources */,
+				937BFF0E2436DA23001EFE4D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF1D2436DA25001EFE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937BFF262436DA25001EFE4D /* YSHistogramViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937BFF282436DA25001EFE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937BFF312436DA25001EFE4D /* YSHistogramViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937BFF232436DA25001EFE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937BFF052436DA23001EFE4D /* YSHistogramView */;
+			targetProxy = 937BFF222436DA25001EFE4D /* PBXContainerItemProxy */;
+		};
+		937BFF2E2436DA25001EFE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937BFF052436DA23001EFE4D /* YSHistogramView */;
+			targetProxy = 937BFF2D2436DA25001EFE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		937BFF122436DA23001EFE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937BFF132436DA23001EFE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937BFF172436DA25001EFE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937BFF182436DA25001EFE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937BFF332436DA25001EFE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		937BFF342436DA25001EFE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937BFF362436DA25001EFE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		937BFF372436DA25001EFE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		937BFF392436DA25001EFE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHistogramView.app/YSHistogramView";
+			};
+			name = Debug;
+		};
+		937BFF3A2436DA25001EFE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHistogramView.app/YSHistogramView";
+			};
+			name = Release;
+		};
+		937BFF3C2436DA25001EFE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSHistogramView;
+			};
+			name = Debug;
+		};
+		937BFF3D2436DA25001EFE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 725G6G9VT8;
+				INFOPLIST_FILE = YSHistogramViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.YSHistogramViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSHistogramView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937BFF012436DA23001EFE4D /* Build configuration list for PBXProject "YSHistogramView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937BFF332436DA25001EFE4D /* Debug */,
+				937BFF342436DA25001EFE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937BFF352436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937BFF362436DA25001EFE4D /* Debug */,
+				937BFF372436DA25001EFE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937BFF382436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937BFF392436DA25001EFE4D /* Debug */,
+				937BFF3A2436DA25001EFE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937BFF3B2436DA25001EFE4D /* Build configuration list for PBXNativeTarget "YSHistogramViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937BFF3C2436DA25001EFE4D /* Debug */,
+				937BFF3D2436DA25001EFE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937BFEFE2436DA23001EFE4D /* Project object */;
+}
