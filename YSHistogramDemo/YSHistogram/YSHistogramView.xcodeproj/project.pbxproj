@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9329627B2449536E00EE8475 /* YSHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329627A2449536E00EE8475 /* YSHistogram.m */; };
 		937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0A2436DA23001EFE4D /* AppDelegate.m */; };
 		937BFF0E2436DA23001EFE4D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0D2436DA23001EFE4D /* SceneDelegate.m */; };
 		937BFF112436DA23001EFE4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF102436DA23001EFE4D /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		937BFF1C2436DA25001EFE4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF1B2436DA25001EFE4D /* main.m */; };
 		937BFF262436DA25001EFE4D /* YSHistogramViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF252436DA25001EFE4D /* YSHistogramViewTests.m */; };
 		937BFF312436DA25001EFE4D /* YSHistogramViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF302436DA25001EFE4D /* YSHistogramViewUITests.m */; };
-		937BFF402436DA43001EFE4D /* YSHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF3F2436DA43001EFE4D /* YSHistogramView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		932962792449536E00EE8475 /* YSHistogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSHistogram.h; sourceTree = "<group>"; };
+		9329627A2449536E00EE8475 /* YSHistogram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogram.m; sourceTree = "<group>"; };
 		937BFF062436DA23001EFE4D /* YSHistogramView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSHistogramView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937BFF092436DA23001EFE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		937BFF0A2436DA23001EFE4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		937BFF2C2436DA25001EFE4D /* YSHistogramViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHistogramViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937BFF302436DA25001EFE4D /* YSHistogramViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogramViewUITests.m; sourceTree = "<group>"; };
 		937BFF322436DA25001EFE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		937BFF3E2436DA43001EFE4D /* YSHistogramView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSHistogramView.h; sourceTree = "<group>"; };
-		937BFF3F2436DA43001EFE4D /* YSHistogramView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogramView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				937BFF0D2436DA23001EFE4D /* SceneDelegate.m */,
 				937BFF0F2436DA23001EFE4D /* ViewController.h */,
 				937BFF102436DA23001EFE4D /* ViewController.m */,
-				937BFF3E2436DA43001EFE4D /* YSHistogramView.h */,
-				937BFF3F2436DA43001EFE4D /* YSHistogramView.m */,
+				932962792449536E00EE8475 /* YSHistogram.h */,
+				9329627A2449536E00EE8475 /* YSHistogram.m */,
 				937BFF122436DA23001EFE4D /* Main.storyboard */,
 				937BFF152436DA25001EFE4D /* Assets.xcassets */,
 				937BFF172436DA25001EFE4D /* LaunchScreen.storyboard */,
@@ -272,10 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9329627B2449536E00EE8475 /* YSHistogram.m in Sources */,
 				937BFF112436DA23001EFE4D /* ViewController.m in Sources */,
 				937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */,
 				937BFF1C2436DA25001EFE4D /* main.m in Sources */,
-				937BFF402436DA43001EFE4D /* YSHistogramView.m in Sources */,
 				937BFF0E2436DA23001EFE4D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

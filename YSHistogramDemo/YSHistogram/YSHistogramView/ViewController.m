@@ -8,11 +8,11 @@
 
 #import "ViewController.h"
 
-#import "YSHistogramView.h"
+#import "YSHistogram.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) YSHistogramView * history_chart;
+@property (nonatomic, strong) YSHistogram * history_chart;
 
 @end
 
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    _history_chart = [[YSHistogramView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 363)];
+    _history_chart = [[YSHistogram alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 363)];
     [self.view addSubview:_history_chart];
     
     NSMutableArray * array = [NSMutableArray array];

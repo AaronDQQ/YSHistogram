@@ -1,14 +1,14 @@
 //
-//  YSHistogramView.m
+//  YSHistogram.m
 //  YSHistogramView
 //
-//  Created by Aaron on 2020/4/3.
+//  Created by Aaron on 2020/4/17.
 //  Copyright © 2020 Aaron. All rights reserved.
 //
 
-#import "YSHistogramView.h"
+#import "YSHistogram.h"
 
-@interface YSHistogramView ()
+@interface YSHistogram ()
 
 @property (nonatomic, strong) UILabel * axis_X;
 @property (nonatomic, strong) UILabel * axis_Y;
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation YSHistogramView
+@implementation YSHistogram
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

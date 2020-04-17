@@ -1,8 +1,8 @@
 //
-//  YSHistogramView.h
+//  YSHistogram.h
 //  YSHistogramView
 //
-//  Created by Aaron on 2020/4/3.
+//  Created by Aaron on 2020/4/17.
 //  Copyright © 2020 Aaron. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YSHistogramView : UIView
+@interface YSHistogram : UIView
 
 /**
  标题
@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
  关闭柱状图详细信息显示栏
  */
 - (void)closeValueView;
+
 
 @end
 
