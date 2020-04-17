@@ -1,0 +1,6 @@
+framework module YSHistogram {
+  umbrella header "YSHistogram-umbrella.h"
+
+  export *
+  module * { export * }
+}

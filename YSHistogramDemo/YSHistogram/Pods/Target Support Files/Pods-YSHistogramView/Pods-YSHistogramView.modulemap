@@ -1,0 +1,6 @@
+framework module Pods_YSHistogramView {
+  umbrella header "Pods-YSHistogramView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - YSHistogram (1.0)
+
+DEPENDENCIES:
+  - YSHistogram
+
+SPEC REPOS:
+  trunk:
+    - YSHistogram
+
+SPEC CHECKSUMS:
+  YSHistogram: d2c563e3e4fab9a8bfd0f764031fb198dd6e1b8b
+
+PODFILE CHECKSUM: bc0738a5f19fa18501a1082441cc88404b61cd80
+
+COCOAPODS: 1.8.3
