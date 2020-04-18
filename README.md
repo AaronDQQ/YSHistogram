@@ -1,1 +1,3 @@
 # YSHistogram
+
+pod 'YSHistogram'
