@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0C1A2CE5FE8D728B8CF81031 /* Pods_YSHistogramView_YSHistogramViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE04132B7531217569E6B6 /* Pods_YSHistogramView_YSHistogramViewUITests.framework */; };
-		9329627B2449536E00EE8475 /* YSHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329627A2449536E00EE8475 /* YSHistogram.m */; };
 		937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0A2436DA23001EFE4D /* AppDelegate.m */; };
 		937BFF0E2436DA23001EFE4D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF0D2436DA23001EFE4D /* SceneDelegate.m */; };
 		937BFF112436DA23001EFE4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFF102436DA23001EFE4D /* ViewController.m */; };
@@ -43,8 +42,6 @@
 		16763A63EF5322AA94BF2C56 /* Pods-YSHistogramView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHistogramView.debug.xcconfig"; path = "Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView.debug.xcconfig"; sourceTree = "<group>"; };
 		42EDD3D5F3A880807CC688C1 /* Pods-YSHistogramViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHistogramViewTests.release.xcconfig"; path = "Target Support Files/Pods-YSHistogramViewTests/Pods-YSHistogramViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D2D0566BDD553C73DABC798 /* Pods-YSHistogramView-YSHistogramViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHistogramView-YSHistogramViewUITests.release.xcconfig"; path = "Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests.release.xcconfig"; sourceTree = "<group>"; };
-		932962792449536E00EE8475 /* YSHistogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSHistogram.h; sourceTree = "<group>"; };
-		9329627A2449536E00EE8475 /* YSHistogram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHistogram.m; sourceTree = "<group>"; };
 		937BFF062436DA23001EFE4D /* YSHistogramView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSHistogramView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937BFF092436DA23001EFE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		937BFF0A2436DA23001EFE4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,7 +106,6 @@
 				F03A0E9EEA367E1602C004CB /* Pods-YSHistogramViewTests.debug.xcconfig */,
 				42EDD3D5F3A880807CC688C1 /* Pods-YSHistogramViewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,8 +140,6 @@
 				937BFF0D2436DA23001EFE4D /* SceneDelegate.m */,
 				937BFF0F2436DA23001EFE4D /* ViewController.h */,
 				937BFF102436DA23001EFE4D /* ViewController.m */,
-				932962792449536E00EE8475 /* YSHistogram.h */,
-				9329627A2449536E00EE8475 /* YSHistogram.m */,
 				937BFF122436DA23001EFE4D /* Main.storyboard */,
 				937BFF152436DA25001EFE4D /* Assets.xcassets */,
 				937BFF172436DA25001EFE4D /* LaunchScreen.storyboard */,
@@ -194,7 +188,7 @@
 				937BFF022436DA23001EFE4D /* Sources */,
 				937BFF032436DA23001EFE4D /* Frameworks */,
 				937BFF042436DA23001EFE4D /* Resources */,
-				1AB991229CAF78FBFB51418B /* [CP] Embed Pods Frameworks */,
+				0219690BF09CF2A9CFF2F6FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +226,7 @@
 				937BFF282436DA25001EFE4D /* Sources */,
 				937BFF292436DA25001EFE4D /* Frameworks */,
 				937BFF2A2436DA25001EFE4D /* Resources */,
-				5CCF1DFBF0A3BE4B12F431B2 /* [CP] Embed Pods Frameworks */,
+				7263949C90DD610C237B6708 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,6 +308,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0219690BF09CF2A9CFF2F6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		18E5E8F5108901B803E7F59C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,40 +347,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1AB991229CAF78FBFB51418B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView/Pods-YSHistogramView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5CCF1DFBF0A3BE4B12F431B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		665730988249F85C9B3EC33D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +367,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7263949C90DD610C237B6708 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSHistogramView-YSHistogramViewUITests/Pods-YSHistogramView-YSHistogramViewUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB000563C44F2D2F431DD477 /* [CP] Check Pods Manifest.lock */ = {
@@ -421,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9329627B2449536E00EE8475 /* YSHistogram.m in Sources */,
 				937BFF112436DA23001EFE4D /* ViewController.m in Sources */,
 				937BFF0B2436DA23001EFE4D /* AppDelegate.m in Sources */,
 				937BFF1C2436DA25001EFE4D /* main.m in Sources */,

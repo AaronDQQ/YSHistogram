@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0241892EA154DB565043B8D598A1A90B /* YSHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 21752656CE2186AFBC150106AF692BBF /* YSHistogram.m */; };
+		0241892EA154DB565043B8D598A1A90B /* YSHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 448C8B126A4AA7487F161A7258D01384 /* YSHistogram.m */; };
 		073DB1F26886AA46F05EB4EA9B7532E5 /* Pods-YSHistogramViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 374D1292270B5BDB661A8991789EFF46 /* Pods-YSHistogramViewTests-dummy.m */; };
-		50B4410A1880CE1A4D3F4380FF67D163 /* YSHistogram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E22065D5849BCD2FDCD469C5F48303 /* YSHistogram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B4410A1880CE1A4D3F4380FF67D163 /* YSHistogram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8355BCDEC41BDE894F10F360B05B976F /* YSHistogram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D78D680FB130BD74F2E329BBD842CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		679CF9A2E13213D824DC261CC5328900 /* Pods-YSHistogramView-YSHistogramViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D757588884A0826F83639318EF6E806 /* Pods-YSHistogramView-YSHistogramViewUITests-dummy.m */; };
 		821C392654AC231F68933A183649C045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		8AD18C0D43D55BA530B006672E16212F /* Pods-YSHistogramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BC4B1C7EDCCE346AA5C7B0669F4BE /* Pods-YSHistogramView-dummy.m */; };
-		8F493C052C42FDB76443E5357C9E9BC9 /* YSHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DEB579B271D983C1CD31E5DF2C720F /* YSHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E952BACA9C850EA54A3FCD67B7C230 /* YSHistogram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A29F29933DCF2A9B59EF0553289E1 /* YSHistogram-dummy.m */; };
+		8F493C052C42FDB76443E5357C9E9BC9 /* YSHistogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D30A226E200A29C0A7B08A39DC1617 /* YSHistogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E952BACA9C850EA54A3FCD67B7C230 /* YSHistogram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C05AF840FD049B0BE191E8C238ACD05 /* YSHistogram-dummy.m */; };
 		948C71436BA7E302D041E0BC21C177DF /* Pods-YSHistogramView-YSHistogramViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 972ACCF327ECACEA133ED2DEE64B2A9A /* Pods-YSHistogramView-YSHistogramViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C858A07622AFD6F7AE0FED7DB0BFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		C455FB4EE508CC58D0AB045D8A72D512 /* Pods-YSHistogramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 072653C39389D56C2BD82863B4F02FE3 /* Pods-YSHistogramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,45 +50,46 @@
 
 /* Begin PBXFileReference section */
 		072653C39389D56C2BD82863B4F02FE3 /* Pods-YSHistogramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSHistogramView-umbrella.h"; sourceTree = "<group>"; };
+		09B02C02FE7863F6ACEB62E3CD4EA59F /* YSHistogram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSHistogram-prefix.pch"; sourceTree = "<group>"; };
 		0EC7B51766EAC07336F7E52E0EAD258A /* Pods-YSHistogramView-YSHistogramViewUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramView-YSHistogramViewUITests-Info.plist"; sourceTree = "<group>"; };
-		21752656CE2186AFBC150106AF692BBF /* YSHistogram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSHistogram.m; path = YSHistogram/YSHistogram.m; sourceTree = "<group>"; };
-		2A2C0C1D8E11AE62E8D59709D89F9123 /* YSHistogram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSHistogram.modulemap; sourceTree = "<group>"; };
+		2A84E88A9A2ADDBEBBCE207182648944 /* YSHistogram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSHistogram-Info.plist"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		35DEB579B271D983C1CD31E5DF2C720F /* YSHistogram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YSHistogram.h; path = YSHistogram/YSHistogram.h; sourceTree = "<group>"; };
 		374D1292270B5BDB661A8991789EFF46 /* Pods-YSHistogramViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSHistogramViewTests-dummy.m"; sourceTree = "<group>"; };
 		42B6A799F7132C51397EECB452C9BE5C /* Pods-YSHistogramView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramView.debug.xcconfig"; sourceTree = "<group>"; };
 		4349C73B1C770D5A07B65BE5792D2F56 /* Pods-YSHistogramView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSHistogramView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		448C8B126A4AA7487F161A7258D01384 /* YSHistogram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSHistogram.m; path = YSHistogram/YSHistogram.m; sourceTree = "<group>"; };
 		4D757588884A0826F83639318EF6E806 /* Pods-YSHistogramView-YSHistogramViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSHistogramView-YSHistogramViewUITests-dummy.m"; sourceTree = "<group>"; };
 		4F435547CA12C1B3534B558F168D08B0 /* Pods-YSHistogramView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramView-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F76F36A4F7CDB3C2936713F7CDDC8AD /* YSHistogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSHistogram.release.xcconfig; sourceTree = "<group>"; };
 		4FC248B76BF152462EEE214E8944057C /* Pods-YSHistogramViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSHistogramViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		535839F324AF22DE655684A7E5D73997 /* YSHistogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSHistogram.framework; path = YSHistogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E8A5E22DDD18BACEAB4738C73C6ED3 /* Pods-YSHistogramView-YSHistogramViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSHistogramView-YSHistogramViewUITests-frameworks.sh"; sourceTree = "<group>"; };
-		595DC34FFD689BEA1479CB8389681A4F /* YSHistogram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSHistogram-prefix.pch"; sourceTree = "<group>"; };
 		5C4864E3C67E7E047CC09C34780A4A3A /* Pods-YSHistogramViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSHistogramViewTests-umbrella.h"; sourceTree = "<group>"; };
 		5F8BD53D662EED0A4824205DCA097FFB /* Pods-YSHistogramView-YSHistogramViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramView-YSHistogramViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62F11604255D1B3021EF427E330CE1DB /* YSHistogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSHistogram.debug.xcconfig; sourceTree = "<group>"; };
 		734DEB70FAB4A779F433E75D47ED3EB0 /* Pods-YSHistogramViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramViewTests.release.xcconfig"; sourceTree = "<group>"; };
-		74393EF9EBB1086A0063F765ADEB6192 /* YSHistogram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSHistogram-Info.plist"; sourceTree = "<group>"; };
 		7582DA9BFB5D345694AFA54CCC560D68 /* Pods_YSHistogramViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSHistogramViewTests.framework; path = "Pods-YSHistogramViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C2929E5BA8CCEA77CF6BE47986541D /* Pods_YSHistogramView_YSHistogramViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSHistogramView_YSHistogramViewUITests.framework; path = "Pods-YSHistogramView-YSHistogramViewUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D30A226E200A29C0A7B08A39DC1617 /* YSHistogram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YSHistogram.h; path = YSHistogram/YSHistogram.h; sourceTree = "<group>"; };
 		7D9748E42FD1C093E1CD14AB11BF9FDD /* Pods-YSHistogramView-YSHistogramViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramView-YSHistogramViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		830656289DD50C05CD416D91E7131432 /* Pods-YSHistogramViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramViewTests-Info.plist"; sourceTree = "<group>"; };
+		8355BCDEC41BDE894F10F360B05B976F /* YSHistogram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSHistogram-umbrella.h"; sourceTree = "<group>"; };
 		9027D534AB0815097A971A0DF118F85C /* Pods-YSHistogramViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSHistogramViewTests.modulemap"; sourceTree = "<group>"; };
 		972ACCF327ECACEA133ED2DEE64B2A9A /* Pods-YSHistogramView-YSHistogramViewUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSHistogramView-YSHistogramViewUITests-umbrella.h"; sourceTree = "<group>"; };
 		99689C47A7B151DB434E7EC65CB65B40 /* Pods-YSHistogramViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C05AF840FD049B0BE191E8C238ACD05 /* YSHistogram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSHistogram-dummy.m"; sourceTree = "<group>"; };
 		9CAF4FA38497C899415112F0BF0D73AC /* Pods-YSHistogramViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B08812F26BBC35716473064227C61456 /* Pods-YSHistogramView-YSHistogramViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSHistogramView-YSHistogramViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B50A29F29933DCF2A9B59EF0553289E1 /* YSHistogram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSHistogram-dummy.m"; sourceTree = "<group>"; };
 		B7E3635FA81FFB4BAB45F002A126ADFA /* Pods-YSHistogramView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSHistogramView-frameworks.sh"; sourceTree = "<group>"; };
 		B86F436136915EB53DBEBD978404CA0D /* Pods-YSHistogramView-YSHistogramViewUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSHistogramView-YSHistogramViewUITests.modulemap"; sourceTree = "<group>"; };
 		C3C84F38F27D206F5115A66277A86212 /* Pods-YSHistogramView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSHistogramView.release.xcconfig"; sourceTree = "<group>"; };
 		C4F93BDEAE4C0C38B501A09061012733 /* Pods-YSHistogramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSHistogramView.modulemap"; sourceTree = "<group>"; };
+		C7B59E32775E2AA30E9DE68FA948249D /* YSHistogram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSHistogram.modulemap; sourceTree = "<group>"; };
 		CB09A30DEC32EB561B978BE5FDE042BA /* Pods-YSHistogramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramView-Info.plist"; sourceTree = "<group>"; };
 		CD5BC4B1C7EDCCE346AA5C7B0669F4BE /* Pods-YSHistogramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSHistogramView-dummy.m"; sourceTree = "<group>"; };
-		D9FECD740B3A81919E1081F4FB691622 /* YSHistogram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSHistogram.xcconfig; sourceTree = "<group>"; };
 		E5A77ED780D856457AA1CE0BA393D58E /* Pods-YSHistogramView-YSHistogramViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSHistogramView-YSHistogramViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0E22065D5849BCD2FDCD469C5F48303 /* YSHistogram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSHistogram-umbrella.h"; sourceTree = "<group>"; };
 		FDFFF8452FABE29E3AD039AC501AC986 /* Pods_YSHistogramView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSHistogramView.framework; path = "Pods-YSHistogramView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,12 +171,27 @@
 			path = "Target Support Files/Pods-YSHistogramViewTests";
 			sourceTree = "<group>";
 		};
-		678DB7E4F9BBEC02FD76FFD361329BA6 /* YSHistogram */ = {
+		57648ABB6B58E356B1C79D000539728A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35DEB579B271D983C1CD31E5DF2C720F /* YSHistogram.h */,
-				21752656CE2186AFBC150106AF692BBF /* YSHistogram.m */,
-				E23A25FD526A24387CE31F1EF88F743F /* Support Files */,
+				C7B59E32775E2AA30E9DE68FA948249D /* YSHistogram.modulemap */,
+				9C05AF840FD049B0BE191E8C238ACD05 /* YSHistogram-dummy.m */,
+				2A84E88A9A2ADDBEBBCE207182648944 /* YSHistogram-Info.plist */,
+				09B02C02FE7863F6ACEB62E3CD4EA59F /* YSHistogram-prefix.pch */,
+				8355BCDEC41BDE894F10F360B05B976F /* YSHistogram-umbrella.h */,
+				62F11604255D1B3021EF427E330CE1DB /* YSHistogram.debug.xcconfig */,
+				4F76F36A4F7CDB3C2936713F7CDDC8AD /* YSHistogram.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YSHistogram";
+			sourceTree = "<group>";
+		};
+		7B5EC047ED38A1CE37848D2563C459E8 /* YSHistogram */ = {
+			isa = PBXGroup;
+			children = (
+				77D30A226E200A29C0A7B08A39DC1617 /* YSHistogram.h */,
+				448C8B126A4AA7487F161A7258D01384 /* YSHistogram.m */,
+				57648ABB6B58E356B1C79D000539728A /* Support Files */,
 			);
 			name = YSHistogram;
 			path = YSHistogram;
@@ -212,7 +228,7 @@
 		CCAD6D2C114D5460813A9A4560C67177 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				678DB7E4F9BBEC02FD76FFD361329BA6 /* YSHistogram */,
+				7B5EC047ED38A1CE37848D2563C459E8 /* YSHistogram */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -226,20 +242,6 @@
 				96908B2EBF1E2B6ECA40F2F33E4EF6BA /* Products */,
 				EF6B42A1E41BF9D452E15AFC1ECEC827 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E23A25FD526A24387CE31F1EF88F743F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A2C0C1D8E11AE62E8D59709D89F9123 /* YSHistogram.modulemap */,
-				D9FECD740B3A81919E1081F4FB691622 /* YSHistogram.xcconfig */,
-				B50A29F29933DCF2A9B59EF0553289E1 /* YSHistogram-dummy.m */,
-				74393EF9EBB1086A0063F765ADEB6192 /* YSHistogram-Info.plist */,
-				595DC34FFD689BEA1479CB8389681A4F /* YSHistogram-prefix.pch */,
-				F0E22065D5849BCD2FDCD469C5F48303 /* YSHistogram-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YSHistogram";
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -390,6 +392,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 96908B2EBF1E2B6ECA40F2F33E4EF6BA /* Products */;
@@ -493,42 +496,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		27D4A4D7D575A402FB30C38FD2B5D5B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FECD740B3A81919E1081F4FB691622 /* YSHistogram.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSHistogram/YSHistogram-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSHistogram/YSHistogram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YSHistogram/YSHistogram.modulemap";
-				PRODUCT_MODULE_NAME = YSHistogram;
-				PRODUCT_NAME = YSHistogram;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		378DE88F4E8214BEB88AA9FD49B144EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99689C47A7B151DB434E7EC65CB65B40 /* Pods-YSHistogramViewTests.debug.xcconfig */;
@@ -599,6 +566,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64C1D965A5E7DAA7B069055A0B4A3CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F11604255D1B3021EF427E330CE1DB /* YSHistogram.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSHistogram/YSHistogram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSHistogram/YSHistogram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YSHistogram/YSHistogram.modulemap";
+				PRODUCT_MODULE_NAME = YSHistogram;
+				PRODUCT_NAME = YSHistogram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -845,41 +847,6 @@
 			};
 			name = Debug;
 		};
-		D9067C20959BBDACF3BF5BF0982F58FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FECD740B3A81919E1081F4FB691622 /* YSHistogram.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSHistogram/YSHistogram-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSHistogram/YSHistogram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YSHistogram/YSHistogram.modulemap";
-				PRODUCT_MODULE_NAME = YSHistogram;
-				PRODUCT_NAME = YSHistogram;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DC07EB602BCC49E79BAD3A749014FE25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 734DEB70FAB4A779F433E75D47ED3EB0 /* Pods-YSHistogramViewTests.release.xcconfig */;
@@ -919,6 +886,42 @@
 			};
 			name = Release;
 		};
+		E0A3F08BFD44EDBEA4CC58E1364B6247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F76F36A4F7CDB3C2936713F7CDDC8AD /* YSHistogram.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSHistogram/YSHistogram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSHistogram/YSHistogram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YSHistogram/YSHistogram.modulemap";
+				PRODUCT_MODULE_NAME = YSHistogram;
+				PRODUCT_NAME = YSHistogram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -943,8 +946,8 @@
 		973E0134155984EFACF38B17867422E8 /* Build configuration list for PBXNativeTarget "YSHistogram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9067C20959BBDACF3BF5BF0982F58FF /* Debug */,
-				27D4A4D7D575A402FB30C38FD2B5D5B0 /* Release */,
+				64C1D965A5E7DAA7B069055A0B4A3CC3 /* Debug */,
+				E0A3F08BFD44EDBEA4CC58E1364B6247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

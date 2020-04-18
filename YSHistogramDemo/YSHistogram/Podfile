@@ -4,10 +4,10 @@
 target 'YSHistogramView' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  
-  pod 'YSHistogram'
 
   # Pods for YSHistogramView
+  
+  pod 'YSHistogram'
 
   target 'YSHistogramViewTests' do
     inherit! :search_paths
